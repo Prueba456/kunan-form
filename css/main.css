@@ -1,0 +1,42 @@
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+.resaltador{
+  color: red;
+}
+.negrita{
+  font-weight: bold;
+}
+.formulario{
+  border: 1px solid black;
+  padding: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.columna1{
+  border: 1px solid purple;
+  display: inline-block;
+  position: relative;
+  width: 45%;
+  margin-right: 30px;
+  padding: 10px;
+}
+.columna2{
+  border: 1px solid green;
+  display: inline-block;
+  position: relative;
+  width: 45%;
+  padding: 10px;
+}
+input{
+  display: block;
+  width: 100%;
+  border: 0px solid;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+input:active{
+    border: 0px solid;
+}
